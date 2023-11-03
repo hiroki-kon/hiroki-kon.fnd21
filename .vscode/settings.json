@@ -1,0 +1,19 @@
+{
+  // 自動保存設定をする
+  "files.autoSave": "afterDelay",
+
+  // ファイル保存時に行われるアクション
+  // ファイル保存時、コードを整形する
+  "editor.formatOnSave": true,
+  // ファイル保存時、同時に行われるアクション
+  "editor.codeActionsOnSave": {
+    // 拡張機能Prettierのチェックを走らせる
+    "source.fixAll.prettier": true,
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // tailwindの補完を有効
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
