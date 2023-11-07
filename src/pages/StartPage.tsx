@@ -18,9 +18,6 @@ export function StartPage() {
       <div className="flex h-screen w-full  items-center justify-center">
         <div className="flex h-fit flex-col  items-center justify-center bg-slate-400/[.5] p-10">
           <h1 className="mb-4 text-4xl font-bold">Quiz Script</h1>
-          <p className="mb-6 text-xl">
-            Test your JavaScript knowledge and embark on a coding journey!
-          </p>
           <div className="flex flex-col space-y-4">
             <Button asChild className="bg-blue-500 px-10">
               <Link to="/quiz/beginner">初級</Link>

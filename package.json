@@ -1,5 +1,6 @@
 {
-  "name": "vite-template",
+  "name": "quiz-script",
+  "homepage": "/hiroki-kon.fnd21",
   "private": true,
   "version": "0.0.0",
   "type": "module",
