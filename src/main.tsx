@@ -7,7 +7,7 @@ import { QuizProvider } from "@/context/QuizContext";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/hiroki-kon.fnd21">
+    <BrowserRouter basename="/hiroki-kon.fnd21/">
       <QuizProvider>
         <App />
       </QuizProvider>
