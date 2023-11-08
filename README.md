@@ -2,6 +2,17 @@
 - JavaScriptに関する知識をテストするためのクイズアプリを開発する。
 - ユーザーがJavaScriptの知識を試すことができ、学習の助けとなる。
 
+## 使用したライブラリ
+1. React
+2. TypeScript
+3. pnpm
+4. TailwindCSS
+5. shadcn/ui
+6. react-router
+7. react-timer-hook
+
+など
+
 ## 基本的な機能
 1. スタート画面: アプリを開始するための難易度別ボタン。
 2. 難易度選択: 初級、中級、上級などの難易度を選べるようにする。
